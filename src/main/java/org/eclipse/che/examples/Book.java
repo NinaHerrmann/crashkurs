@@ -4,11 +4,22 @@
  *--------------------------------------------------------------------------------------------*/
 package org.eclipse.che.examples;
 
-public class HelloWorld {
-    public static void main(String... argvs) {
-        Book telephonebook = new Book (24);
-        int x = 20;
-        System.out.println("My book has: " + telephonebook.getPages() + "pages!");
-        System.out.println("Book A has less pages: " + telephonebook.hasPage(x) + "!");
+public class Book {
+    int pages;
+
+    public Book (int pages){
+        this.pages = 24;
+    }
+    
+    public boolean hasPage(int x){
+        if (x <= pages) {
+            return true;} 
+        else {
+            return false;}
+        
+    }
+    public int getPages(){
+        return pages;
+
     }
 }

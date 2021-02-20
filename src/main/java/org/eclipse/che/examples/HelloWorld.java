@@ -12,6 +12,24 @@ public class HelloWorld {
             System.out.println("Book has page " + a + "!");
         } else {
             System.out.println("Book does not have page " + a + "!");
+        
         }
+
+        mybook.setPages();
+
+        for(int i = 0; i<mybook.pages; i++){
+            //system.out.printline(mybook.names[i]);
+            for(int ii = 0; ii<mybook.entries; ii++){
+                System.out.println(mybook.names[i][ii]);
+            }
+        }
+
+        /*mybook.newEntry(0, "Niklas F.");
+        mybook.newEntry(1, "Niklas G.");
+        mybook.newEntry(2, "Markus L.");
+        
+        for(int i = 0;i<=mybook.pages; i++){
+            System.out.println(mybook.names[i]);
+        } */
     }
 }

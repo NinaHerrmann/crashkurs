@@ -5,8 +5,13 @@
 package org.eclipse.che.examples;
 
 public class HelloWorld {
-    public static void main(String... argvs) {
-        String a = "Che";
-        System.out.println("Hello World " + a + "!");
+    public static void main(String[] argvs) {
+        int a = 12;
+        Book mybook = new Book(Integer.valueOf(argvs[0]));
+        if (mybook.hasPage(a)){
+            System.out.println("Book has page " + a + "!");
+        } else {
+            System.out.println("Book does not have page " + a + "!");
+        }
     }
 }

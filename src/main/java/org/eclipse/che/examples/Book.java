@@ -19,4 +19,12 @@ public class Book {
     public int getPages(){
         return pages;
     }
+
+    public boolean hasPage(int pagenumber){
+        if (pagenumber < 0 || pagenumber > pages) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 }

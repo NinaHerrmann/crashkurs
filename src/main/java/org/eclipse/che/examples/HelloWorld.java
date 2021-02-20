@@ -5,8 +5,11 @@
 package org.eclipse.che.examples;
 
 public class HelloWorld {
-    public static void main(String... argvs) {
-        String a = "Che";
-        System.out.println("Hello World " + a + "!");
+    public static void main(String[] args) {
+        Book telefonbuch = new Book(42);
+        int pageExist = 43;
+        System.out.println("My book has " + telefonbuch.getPages() + " pages !"); 
+        System.out.println("pageExist: " + pageExist);
+        System.out.println(telefonbuch.checkPageExist(pageExist));
     }
 }

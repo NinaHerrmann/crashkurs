@@ -6,7 +6,9 @@ package org.eclipse.che.examples;
 
 public class HelloWorld {
     public static void main(String... argvs) {
-        String a = "Che";
-        System.out.println("Hello World " + a + "!");
+       book telephoneBook = new book(24);
+       int x = 20;
+        System.out.println("My book has " + telephoneBook.getPages() + "pages !");
+        System.out.println("Book A has less pages: " + telephoneBook.hasPages(x) + "!");
     }
 }

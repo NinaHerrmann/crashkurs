@@ -5,7 +5,7 @@
 package com.codenvy.example.java;
 
 import static org.junit.Assert.assertTrue;
-
+import org.eclipse.che.examples.Book;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -19,5 +19,11 @@ public class AppTest {
     @Test
     public void testApp() {
         assertTrue(true);
+    }
+
+     @Test
+    public void testBook() {
+        Book mybBook = new Book(24);
+        assertTrue(24 == mybBook.getPages());
     }
 }

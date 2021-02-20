@@ -16,7 +16,7 @@ public class Book {
         pages = page;
     }
 
-    public int getPages()[
+    public int getPages(){
         return pages;
-    ]
+    }
 }

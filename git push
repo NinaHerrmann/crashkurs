@@ -1,0 +1,170 @@
+[33mcommit 8f2a38a6cbbcbe3145c7e52bbef188144915e04b[m[33m ([m[1;36mHEAD -> [m[1;32mNiklasCode[m[33m)[m
+Author: nigel7474 <niklas.flechsig@gmx.net>
+Date:   Sat Feb 20 09:24:55 2021 +0000
+
+    Added book class
+
+[33mcommit e83599e4bf6a7f6015ea83b9bb10dec3c3c278d7[m[33m ([m[1;31morigin/java1.11[m[33m, [m[1;31morigin/NiklasCode[m[33m, [m[1;32mjava1.11[m[33m)[m
+Merge: 8c82f11 5f4323d
+Author: Valeriy Svydenko <vsvydenk@redhat.com>
+Date:   Wed Oct 9 17:01:33 2019 +0300
+
+    Merge pull request #14 from che-samples/sv/license
+    
+    Add license
+
+[33mcommit 5f4323d41b1494c7a2be7f8d420d569a20c8b5dc[m
+Author: svor <vsvydenk@redhat.com>
+Date:   Wed Oct 9 15:08:49 2019 +0300
+
+    Add license
+    
+    Signed-off-by: svor <vsvydenk@redhat.com>
+
+[33mcommit 8c82f11b4b2ec26917f950fe6237e2f2c45ec0eb[m
+Author: Oleksandr Andriienko <oandriie@redhat.com>
+Date:   Fri Oct 4 10:44:26 2019 +0300
+
+    Fix build for maven and gradle (#12)
+    
+    Signed-off-by: Oleksandr Andriienko <oandriie@redhat.com>
+
+[33mcommit 51029129565cbd3342b61ebc8622c1b29008a504[m
+Author: Oleksandr Andriienko <oandriie@redhat.com>
+Date:   Thu Oct 3 15:31:15 2019 +0300
+
+    Maven compiler to java 1.11
+    
+    Signed-off-by: Oleksandr Andriienko <oandriie@redhat.com>
+
+[33mcommit 07d583b5f949362e95a9cb4575efab04b5f41d9f[m
+Author: Angel Misevski <amisevsk@redhat.com>
+Date:   Fri Aug 2 10:23:39 2019 -0400
+
+    Update readme and .gitignore (#10)
+    
+    Signed-off-by: Angel Misevski <amisevsk@redhat.com>
+
+[33mcommit 729ae405e4290207b4a506c92b505e92e0418ee2[m
+Merge: 10fa5e2 6dc1234
+Author: Mario Loriedo <mario.loriedo@gmail.com>
+Date:   Thu Mar 28 17:47:57 2019 +0100
+
+    Merge pull request #7 from l0rd/che7
+    
+    Small improvements to support JDK11 and gradle
+
+[33mcommit 6dc12348e39bff40bda7c34ac46353802ca0f1e4[m
+Author: Mario Loriedo <mario.loriedo@gmail.com>
+Date:   Fri Mar 15 11:02:44 2019 +0100
+
+    Set encoding and jdk version for maven build
+    
+    Signed-off-by: Mario Loriedo <mario.loriedo@gmail.com>
+
+[33mcommit 01b1226753bb0ae981f88799c66756663c154488[m
+Author: Mario Loriedo <mario.loriedo@gmail.com>
+Date:   Fri Mar 15 10:47:58 2019 +0100
+
+    Added gradle build file
+    
+    Signed-off-by: Mario Loriedo <mario.loriedo@gmail.com>
+
+[33mcommit 10fa5e22a29ca08f6b5e0e829a6ca384f782bed4[m
+Merge: 8a3a09e c54a04a
+Author: Eugene Ivantsov <eivantsov@codenvy.com>
+Date:   Wed Feb 22 13:38:29 2017 +0200
+
+    Merge pull request #3 from mlabuda/upgrade_junit
+    
+    Upgraded JUnit 3 to JUnit 4, updated test, change main method arg to varargs
+
+[33mcommit c54a04a5e7491bd07ad267d102d7a9e8eac9b98d[m
+Author: Marian Labuda <mlabuda@redhat.com>
+Date:   Wed Feb 22 12:26:45 2017 +0100
+
+    Upgraded JUnit 3 to JUnit 4, updated test, change main method arg to vararg
+
+[33mcommit 8a3a09e72609eb224424f7fbc85a8d6e3220b8c8[m
+Author: Daria Dementieva <ddementieva@codenvy.com>
+Date:   Wed Jun 15 17:19:31 2016 +0300
+
+    Edit variable to make it possible to debug
+
+[33mcommit bbf0d0b652145fa830046aa240a9804593a3e098[m
+Author: Daria Dementieva <ddementieva@codenvy.com>
+Date:   Fri Mar 4 16:14:22 2016 +0200
+
+    Improve icon
+
+[33mcommit 5cfdab638f523df116480fb4a4b8448ed3330be7[m
+Author: Daria Dementieva <ddementieva@codenvy.com>
+Date:   Tue Mar 1 12:30:23 2016 +0200
+
+    Add policy to the factory configuration file
+
+[33mcommit 433e09bb0bf8a468ce7febdd1cf85becf6fcf2ba[m
+Author: Daria Dementieva <ddementieva@codenvy.com>
+Date:   Wed Feb 24 16:38:31 2016 +0200
+
+    Update README.md
+
+[33mcommit 89934b0740444e16d7b1e04379484ad515af1c37[m
+Author: Daria Dementieva <ddementieva@codenvy.com>
+Date:   Wed Feb 24 16:35:12 2016 +0200
+
+    Add factory configuration file
+
+[33mcommit f2a9f91da5aebc73b5e947ea4dc67ea083dab2aa[m
+Author: Tyler Jewell <tylerjewell@gmail.com>
+Date:   Sun Jan 17 10:08:38 2016 +0000
+
+    Changed the main class
+
+[33mcommit f57dae893a0e825f838b3272fd942cd2d4639a80[m
+Author: Anonymous <anonymous@noemail.com>
+Date:   Sun Jan 17 10:06:46 2016 +0000
+
+    Changed name of the main class
+
+[33mcommit db1c75e26b792d60a626c886d56ebff0d14a90b2[m
+Author: Tyler Jewell <tjewell@codenvy.com>
+Date:   Thu Jan 14 04:32:37 2016 -0800
+
+    updated to use eclipse package names
+
+[33mcommit 5de2248cd9122de5118b4b52f4dd8f4c0715f007[m
+Author: Eugene Ivantsov <eivantsoc@codenvy.com>
+Date:   Thu Jan 7 09:38:29 2016 +0100
+
+    fixed java sample
+
+[33mcommit 24c02018e8ca9ca56fb42054151bf1787aa5174c[m
+Author: Eugene Ivantsov <eivantsov@codenvy.com>
+Date:   Wed Jan 6 21:23:55 2016 +0100
+
+    Update README.md
+
+[33mcommit 5c4d60ddfbf8e6bfa2e6b07871909d73cfbb2833[m
+Author: Daria Dementieva <ddementieva@codenvy.com>
+Date:   Wed Jan 6 17:23:20 2016 +0200
+
+    Update README.md
+
+[33mcommit 9527e62af9789c83bb86c59d748f3b9ebbb69a22[m
+Author: Daria Dementieva <ddementieva@codenvy.com>
+Date:   Wed Jan 6 17:22:47 2016 +0200
+
+    Update README.md
+
+[33mcommit bd670c497bbc079bb51dd61fb6c4d591d6570fdb[m
+Author: Eugene Ivantsov <eivantsov@codenvy.com>
+Date:   Wed Jan 6 17:17:37 2016 +0200
+
+    added java console app
+
+[33mcommit bf7df2065eb48f0a12cada4e76c981dd9cf4d251[m
+Author: Eugene Ivantsov <eivantsov@codenvy.com>
+Date:   Wed Jan 6 17:03:23 2016 +0200
+
+    Initial commit
